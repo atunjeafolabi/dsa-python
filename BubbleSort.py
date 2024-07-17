@@ -15,3 +15,9 @@ def bubble_sort(array):
             break
 
     return array
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    numbers = [3, 4, 8, 10, 1, 2, 1, 20, 15, 7]
+    print(bubble_sort(numbers))
