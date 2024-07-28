@@ -4,10 +4,13 @@ def merge_sort(array):
 
     midpoint = len(array) // 2
 
-    left = merge_sort(array[:midpoint])
-    right = merge_sort(array[midpoint:])
+    left = array[:midpoint]
+    right = array[midpoint:]
 
-    return merge(left, right)
+    sorted_left = merge_sort(left)
+    sorted_right = merge_sort(right)
+
+    return merge(sorted_left, sorted_right)
 
 
 def merge(left, right):
