@@ -9,9 +9,12 @@ def mergeSort(array):
     mergeSort(left)
     mergeSort(right)
 
-    i = j = k = 0
-
     # merge
+
+    i = 0   # left array index
+    j = 0   # right array index
+    k = 0   # merged array index
+
     # Until we reach either end of either left or right,
     # pick larger among elements left and right and place
     # them in the correct position at A[p..midpoint]
