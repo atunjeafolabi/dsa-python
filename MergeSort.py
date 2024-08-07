@@ -57,5 +57,6 @@ def merge(left, right):
 
 
 if __name__ == '__main__':
-    numbers = [19, 3, 4, 8, 10, 1, 2, 1, 20, 15, 7]
+    # numbers = [19, 3, 4, 8, 10, 1, 2, 1, 20, 15, 7]
+    numbers = [4, 3, 8, 1, 7]
     print(merge_sort(numbers))
