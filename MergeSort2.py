@@ -23,14 +23,12 @@ def mergeSort(array):
             array[k] = right[j]
             j += 1
         k += 1
-
     # When we run out of elements in either left or right,
     # pick up the remaining elements and put in A[p..midpoint]
     while i < len(left):
         array[k] = left[i]
         i += 1
         k += 1
-
     while j < len(right):
         array[k] = right[j]
         j += 1
@@ -39,8 +37,8 @@ def mergeSort(array):
 
 # Driver program
 if __name__ == '__main__':
-    array = [6, 5, 12, 5, 10, 9, 1]
+    numbers = [6, 5, 12, 5, 10, 9, 1]
 
-    mergeSort(array)
+    mergeSort(numbers)
 
-    print(array)
+    print(numbers)
