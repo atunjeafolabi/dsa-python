@@ -1,6 +1,3 @@
-# Binary Search in python
-
-
 def binarySearch(array, x):
     low = 0
     high = len(array) - 1
