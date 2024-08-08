@@ -12,7 +12,6 @@ def bubble_sort(array):
         for j in range(n - i):
             if array[j] > array[j + 1]:
                 array[j], array[j + 1] = array[j + 1], array[j]
-
                 already_sorted = False
 
         if already_sorted:
